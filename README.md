@@ -39,7 +39,7 @@ Foote, I., Oosting, T., Walker, K., Elliott, G., Rexer-Huber, K., Parker, G. C.,
 * Identify and softmask repeat regions in the genome: [RepeatModeler](https://github.com/Dfam-consortium/RepeatModeler); [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker). 
 
 ### 9 - Genome annotation
-* Perform functional annotation of genome: [GALBA](https://github.com/Gaius-Augustus/GALBA).
+* Perform annotation of genome: [GALBA](https://github.com/Gaius-Augustus/GALBA).
 * Filtering of annotation and calculation of summary statistics: [AGAT](https://agat.readthedocs.io/en/latest/index.html).
 * Evaluate annotation BUSCO completeness: [BUSCO](https://busco.ezlab.org/).
 * Functional annotation: [eggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper).
@@ -47,15 +47,13 @@ Foote, I., Oosting, T., Walker, K., Elliott, G., Rexer-Huber, K., Parker, G. C.,
 * Calculate summary statistics of functional annotation: custom script. 
 
 ### 10 - Mitochondrial genome assembly and annotation
-* Inspection of whole genome assembly graphs to identify mitochondrial contig: [Bandage](https://rrwick.github.io/Bandage/)†.
-* Removal of mitochondrial contig from nuclear assembly: custom script.???????????????????
 * Mapping of reads to *Phoebastria albatrus* mitogenome and removal of unmapped reads: [Minimap2](https://github.com/lh3/minimap2); [SAMtools](https://github.com/samtools/samtools).
 * De novo mitogenome assembly using mitochondrial reads: [Flye](https://github.com/mikolmogorov/Flye).
 * Annotation of mitogenome: [MITOS2](https://github.com/gavieira/mitos2_wrapper).
 * Visualise coverage of mapped reads to mitogenome to check for reads covering duplicated regions and excessively soft-clipped reads: [Geneious Prime](https://www.geneious.com/)†. 
 
 ### 11 - Whole genome comparison
-* Alignment of whole genome sequence and visualisation with dot-plots: [D-genies](https://dgenies.toulouse.inra.fr/); [Minimap2](https://github.com/lh3/minimap2))†.
-* Alignment of whole genome sequence and visualisation with circos plot: [Circa](https://circa.omgenomics.com/); [Mashmap](https://github.com/marbl/MashMap)†.
+* Alignment of whole genome sequence and visualisation with dot-plots: [D-genies](https://dgenies.toulouse.inra.fr/)†; [Minimap2](https://github.com/lh3/minimap2))†.
+* Alignment of whole genome sequence and visualisation with circos plot: [Circa](https://circa.omgenomics.com/)†; [Mashmap](https://github.com/marbl/MashMap).
 
 *†Note: these steps were not performed on the command-line, so there are no associated scripts.*
