@@ -6,7 +6,7 @@
 #SBATCH -o %x.%j.out
 #SBATCH -e %x.%j.err
 
-## Script to create a custom repeat library for repeat masking
+## Script to create a custom repeat library for repeat masking, then softmask repeats 
 
 # Load modules
 module purge
