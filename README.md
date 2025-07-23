@@ -58,3 +58,5 @@ Foote, I., Oosting, T., Walker, K., Elliott, G., Rexer-Huber, K., Parker, G. C.,
 * Alignment of whole genome sequence and visualisation with circos plot: [Circa](https://circa.omgenomics.com/)†; [Mashmap](https://github.com/marbl/MashMap).
 
 *†Note: these steps were not performed on the command-line, so there are no associated scripts.*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16350756.svg)](https://doi.org/10.5281/zenodo.16350756)
