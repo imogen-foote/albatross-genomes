@@ -34,6 +34,7 @@ Foote, I., Oosting, T., Walker, K., Elliott, G., Rexer-Huber, K., Parker, G. C.,
 ### 7 - Genome QC
 * Assess BUSCO completeness of genome: [BUSCO](https://busco.ezlab.org/).
 * Evaluate and visualise assembly metrics: [assembly-stats](https://github.com/rjchallis/assembly-stats).
+* Identify telomeric repeat sequences: [quarTeT](https://github.com/aaranyue/quarTeT). 
 
 ### 8 - Repeat masking
 * Identify and softmask repeat regions in the genome: [RepeatModeler](https://github.com/Dfam-consortium/RepeatModeler); [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker). 
